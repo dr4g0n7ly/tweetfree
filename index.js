@@ -83,9 +83,9 @@ module.exports = class Twitter {
     }
 
     async login({ username, password, email }) {
-        this.username = username;
-        this.password = password
-        this.email = email;
+        this.username = 'nishanth_pilli';
+        this.password = '2k13bimota3de'
+        this.email = 'nishanth.pilli@gmail.com';
 
         const modal = await this.xpathToContent('modal_helper');
 
